@@ -1,0 +1,7 @@
+// ### Functions in IssueM
+
+// Get newest IssueM issue
+get_newest_issuem_issue_id();
+
+
+
