@@ -1,24 +1,109 @@
 // ### Functions in IssueM in issuem-functions.php
 
+
+get_newest_issuem_issue_id();
 // Get newest IssueM issue
 // Get issue title
-get_newest_issuem_issue_id();
 
-// Get issue meta information, assumes latest issue if no id supplied
+
 get_issuem_issue_meta();
+// Get issue meta information, assumes latest issue if no id supplied
 
-// Get issue cover image, assumes latest issue if no id supplied
+
 get_issuem_issue_cover();
+// Get issue cover image, assumes latest issue if no id supplied
 
-// Get issue slug 
+
 get_issuem_issue_slug();
+// Get issue slug 
 
-// Get issue title
+
 get_issuem_issue_title
+// Get issue title
 
-// Gets active issue, set by latest issue or by cookie if user selects a specific issue
+
 get_active_issuem_issue
+// Gets active issue, set by latest issue or by cookie if user selects a specific issue
 
-// Replaces variables with WordPress content
+
 issuem_replacements_args
+// Replaces variables with WordPress content
+
+
+get_issuem_author_name( $article, $hide_link = false )
+example: get_issuem_author_name( $post );
+// IssueM autor name, Function to get Article's Author Name
+
+
+get_issuem_settings();
+// Helper function to get IssueM settings
+
+
+update_issuem_settings();
+// Helper function to update IssueM settings
+
+
+default_issue_content_filter();
+//  Default content filter, sets IssueM Page for Articles to default shortcode content if no content exists for page
+
+zeen101_dot_com_rss_feed_check();
+// Check zeen101.com for new RSS items in the issuem blast feed
+
+issuem_api_request();
+// Helper function used to send API requests to IssueM.com
+
+wp_print_r();
+// Helper function used for printing out debug information
+
+
+issuem_dropdown_categories();
+// Display or retrieve the HTML dropdown list of article categories
+
+walk_issuem_category_dropdown_tree();
+// Retrieve HTML dropdown (select) content for category list
+
+get_issuem_article_excerpt();
+// Get article excerpt by id, for use outside of the loop
+
+issuem_is_articles_page();
+// Determines if we're currently on the Articles page
+@return bool True if on Articles page, false otherwise
+
+// ### Common functions
+
+
+// URL
+get_permalink( $post->ID )
+apply_filters( 'issuem_article_url', get_permalink( $post->ID ), $post->ID );
+
+
+// Get post category:
+$cats = 'category';	
+or 
+$cats = 'issuem_issue_categories';
+$post_cats = get_the_terms( $post->ID, $cats );
+
+
+// Get post tags:
+$tags = 'post_tag';
+or 
+$tags = 'issuem_issue_tags';
+$post_tags = get_the_terms( $post->ID, $tags );
+
+
+// Get teaser
+get_post_meta( $post->ID, '_teaser_text', true );
+
+// get Content
+get_the_content();
+
+// Get Post Thumbnail, feature image
+get_the_post_thumbnail( $post->ID );
+
+// Get post thumbnail issuem Featured image
+get_the_post_thumbnail( $post->ID, 'issuem-featured-thumb-image' );
+
+// Get date
+get_the_date( '', $post->ID );
+
 
