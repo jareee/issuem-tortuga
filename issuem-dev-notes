@@ -1,7 +1,24 @@
-// ### Functions in IssueM
+// ### Functions in IssueM in issuem-functions.php
 
 // Get newest IssueM issue
+// Get issue title
 get_newest_issuem_issue_id();
 
+// Get issue meta information, assumes latest issue if no id supplied
+get_issuem_issue_meta();
 
+// Get issue cover image, assumes latest issue if no id supplied
+get_issuem_issue_cover();
+
+// Get issue slug 
+get_issuem_issue_slug();
+
+// Get issue title
+get_issuem_issue_title
+
+// Gets active issue, set by latest issue or by cookie if user selects a specific issue
+get_active_issuem_issue
+
+// Replaces variables with WordPress content
+issuem_replacements_args
 
