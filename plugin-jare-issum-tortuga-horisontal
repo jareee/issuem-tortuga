@@ -1,0 +1,54 @@
+## plan 1
+
+plugin only in frontpage, so only need to show currently only newest issue
+
+-pre-
+find newest issue id
+  issuem built-in funktsioon
+    get_newest_issuem_issue_id();
+
+if plugin category
+  if 
+    plugin ective
+  else
+ 
+
+-fun-
+if newest_issue_id == current_issue_id 
+  plugin active
+  new query
+  
+endif
+
+
+## 2
+
+find_current_slug 
+  get_issuem_issue_slug(); // get latest if id not provided
+  
+
+if newest_(live)_issue_slug == current_issue_slug
+  plugin active
+  new query
+
+endif
+
+
+## 3
+
+
+
+
+# 4
+
+
+
+# 5
+
+
+
+# 6
+
+
+
+
