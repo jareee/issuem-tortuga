@@ -1,54 +1,37 @@
-## plan 1
-
-plugin only in frontpage, so only need to show currently only newest issue
-
--pre-
-find newest issue id
-  issuem built-in funktsioon
-    get_newest_issuem_issue_id();
-
-if plugin category
-  if 
-    plugin ective
-  else
- 
-
--fun-
-if newest_issue_id == current_issue_id 
-  plugin active
-  new query
-  
-endif
 
 
-## 2
+## planninf of plugin -  1
 
-find_current_slug 
-  get_issuem_issue_slug(); // get latest if id not provided
-  
+// TASK
+  showing plugin only when specific category
+  filtering plugin posts only to specific category
+  filterin plugin only to specific issue - newest or current issue
+  plugin only in magazine widget area, magazine widget area is recommended to activate only in frontpage,
+then needed only show current or only newest issue
 
-if newest_(live)_issue_slug == current_issue_slug
-  plugin active
-  new query
+? what is diffrerence of active-issue-id and newest-issue-id
 
-endif
+// define variables
+  variable $plugin_category
+  variable $newest_issuem_issue // issuem built-in get_newest_issuem_issue_id();
 
+// show plugin only when defined category has posts
+  if defind category  has posts
+    plugin active
 
-## 3
-
-
-
-
-# 4
-
-
-
-# 5
-
-
-
-# 6
+//* varaiant A - defined query
+  query only posts with $newest_issuem_issue (id, slug)
+  query only posts with $plugin_category
+get-posts()
 
 
+// * variant A - modified get meta, get_posts
+
+
+// variant A
+
+new WP_query
+https://codex.wordpress.org/Class_Reference/WP_Query
+Study there optpions first
 
 
