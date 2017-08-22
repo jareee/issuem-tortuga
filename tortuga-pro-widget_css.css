@@ -7,7 +7,7 @@
 //  content-type "post" 
 //  content-type "article" <article class=clearfix post-421 article type-article status-publish format-standard has-post-thumbnail hentry issuem_issue-177-1-2015
 
-// ---post----
+// ----- post -----
     .entry-title a:link,{
         color: #de6150;
         text-decoration: none;
@@ -17,7 +17,7 @@
         background-color: transparent;
     }
 
-                ---article---
+                // ---article---
                                 a, a:link, a:visited {
                                     color: #7e9a3c;
                                 }
@@ -77,14 +77,25 @@ header {
 // <header> 
 // ... <article> <header>
 
-
-		---- article ----
+// ----- post -----
+header {
+    display: block;
+}
+* { 	
+	box-sizing: inherit;
+}
+		//---- article ----
 				header {	
 					display: block;
 				}
 				* { 	
 					box-sizing: inherit;
 				}
+// ----- post -----
+
+* { 	
+	box-sizing: inherit;
+}
 
 
 // ---------------------------------------------
