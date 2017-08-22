@@ -35,46 +35,34 @@
 // --- child-theme css  ----
 
 
-
 // ----------------------------------------------------------------
 // <img>
 // <article> <img>
-
 // ----- post -----
 
 .widget-magazine-posts-list .type-post .wp-post-image {
-//  !! NB
+    /* !! NB */
     float: left;    
     margin: 0 0.75em 0 0;
     padding: 0 0.75em 0 0;
     max-width: 50%;
 }
 
-.widget-magazine-posts-list .type-post .wp-post-image {
-    float: left;
-    margin: 0 0.75em 0 0;
-    padding: 0 0.75em 0 0;
-    max-width: 50%;
-}
-
-.img {
+img {
     height: auto;
     border: 0;
 }
 
-// ------ child-theme css for article  ------
+// ---- child-theme with article  ----
 
-.widget-magazine-posts-list .type-article .wp-post-image {
+div.widget-magazine-posts-list img {
 	float: left;    
 	margin: 0 0.75em 0 0;
 	padding: 0 0.75em 0 0;
 	max-width: 50%;
 	height: auto;
-	height: auto;
 	border: 0;
 }
-
-
 
 // ---------------------------------------------
 // <header> 
@@ -131,8 +119,7 @@ header {
 					 font-weight: normal;
 					 font-family: 'Titillium Web', Tahoma, Arial;
                                     }
-				
-                                   
+				          
 ----- post -----
 h2 {
     clear: both;
@@ -141,7 +128,6 @@ h2 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
 				    h2 {
 					clear: both;
 					display: block;
@@ -160,6 +146,11 @@ h2 {
     					box-sizing: inherit;
 				}
 
+// ---- child-theme with article  ----
+
+div.widget-magazine-posts-list div article header h2 {
+	
+}
 
 --------  child-theme css -----------
 .widget-magazine-posts .type-article .entry-title {
