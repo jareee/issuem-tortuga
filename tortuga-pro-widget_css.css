@@ -119,8 +119,8 @@ header {
 					   font-family: 'Titillium Web', Tahoma, Arial;
                                     }
 				
-                                       
-
+                                   
+----- post -----
 h2 {
     clear: both;
     -webkit-margin-before: 0.83em;
@@ -129,8 +129,14 @@ h2 {
     -webkit-margin-end: 0px;
 }
 
-				    clear: both;
-}
+				    h2 {
+					clear: both;
+					display: block;
+					-webkit-margin-before: 0.83em;
+					-webkit-margin-after: 0.83em;
+					-webkit-margin-start: 0px;
+					-webkit-margin-end: 0px;   
+				}
 
 // ---- post ------
 * {
@@ -148,12 +154,20 @@ h2 {
 // <h2> 
 // ... <article> <header> <h2> <a>
 
+// -------- 
 .entry-title a:link {
     color: #de6150;
     text-decoration: none;
     transition: all 0.2s ease;
 }
 
+		// ----- article -----------
+				.entry-title a:link {
+					color: #de6150;
+					text-decoration: none;
+    					transition: all 0.2s ease;
+				}
+				
 a {
     background-color: transparent;
 }
