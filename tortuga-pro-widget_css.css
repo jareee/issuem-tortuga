@@ -154,7 +154,7 @@ h2 {
 // <h2> 
 // ... <article> <header> <h2> <a>
 
-// -------- 
+// -------- post ----------
 .entry-title a:link {
     color: #de6150;
     text-decoration: none;
@@ -167,10 +167,15 @@ h2 {
 					text-decoration: none;
     					transition: all 0.2s ease;
 				}
-				
+// -------- post ----------			
 a {
     background-color: transparent;
 }
+
+		// ----- article -----------
+				a {
+		    			background-color: transparent;
+				}
 
 * {
     box-sizing: inherit;
@@ -181,16 +186,33 @@ a {
 // <div class entry-meta> 
 // ... <article> <header> <div>
 
-entry-meta {
+// -------- post ----------
+.entry-meta {
     margin: 0;
     padding: 0;
     color: #303030;
     font-size: 0.875rem;
 }
 
+		// ----- article -----------
+				.entry-meta {
+					margin: 0;
+    					padding: 0;
+    					color: #303030;
+    					font-size: 0.875rem;
+				}
+
+// -------- post ----------
 * {
     box-sizing: inherit;
 }
+
+		// ----- article -----------
+				* {
+    					box-sizing: inherit;
+				}
+
+
 
 
 // ---------------------------------------------
