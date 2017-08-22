@@ -1,0 +1,43 @@
+CSS anaüüsi vaates, article
+
+<head>
+<body>
+	<div id page>
+	<div id=header-top>
+	<header id=masthead>
+		<div>
+		<div id=main-navigation-wrap>
+	<div id=content class=site-content conteiner clearfix>
+	<div id=post-slider-container class=post-slider-container type-page clearfix>
+		<div id=post-slider-wrap>
+	<section id=primary class=content-magazine-content-single content-area
+		<main id=main class=site-main role main>
+			<div id=magazine-homepage-widgets class=widget-area clearfix>
+				<div id=tortuga-magazine-posts-lists-3  class=widget tortuga-magazine-list-widget>
+					<div class=widget-magzine-posts-list widget-mazine-posts clearfix>
+						<div class=widget-header>
+							<h3 class=widget-title>
+								<a class="category-archive-link>
+						<div class=widget-magazine-posts-content>
+							<article id=post-421 class=clearfix post-421 article type-article status-publish format-standard has-post-thumbnail hentry issuem_issue-177-1-2015>
+								before
+								<a>
+								<header class=entry-header>
+									<h2 class entry-title>
+								<div class="entry-meta">
+									<span class="meta-date">
+									<span class="meta-author">
+								<div class="entry-content">
+									<p> Lorem Ipsum
+									<a> read more
+                  
+								
+							
+						
+						
+						
+						
+						
+						
+	
+	
