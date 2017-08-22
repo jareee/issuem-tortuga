@@ -1,0 +1,116 @@
+
+### html erinevused
+1 - posts
+2 - articles
+
+
+### primary, Main --none
+
+1
+<section id="primary" class="content-magazine content-single content-area">
+		<main id="main" class="site-main" role="main">
+2
+<section id="primary" class="content-magazine content-single content-area">
+		<main id="main" class="site-main" role="main">
+
+
+### div 3x --none
+  1
+	<div id="magazine-homepage-widgets" class="widget-area clearfix">
+  <div id="tortuga-magazine-posts-list-3" class="widget tortuga-magazine-list-widget">
+  <div class="widget-magazine-posts-list widget-magazine-posts clearfix">
+
+  2
+  <div id="magazine-homepage-widgets" class="widget-area clearfix">
+    <div id="tortuga-magazine-posts-list-3" class="widget tortuga-magazine-list-widget">
+  <div class="widget-magazine-posts-list widget-magazine-posts clearfix">
+
+
+### div header --none
+1
+<div class="widget-header"><h3 class="widget-title"><a class="category-archive-link" href="http://kristlikkasvatus.ee/arendus/category/fookuses/" title="View all posts from category Fookuses">Fookuses</a></h3></div>
+
+2
+<div class="widget-header"><h3 class="widget-title"><a class="category-archive-link" href="http://kristlikkasvatus.ee/arendus/category/fookuses/" title="View all posts from category Fookuses">Fookuses</a></h3></div>
+
+### div content - none
+
+1
+	<div class="widget-magazine-posts-content">
+2
+	<div class="widget-magazine-posts-content">
+
+
+### article - erineb
+1
+  <article id="post-353" class="clearfix post-353 post type-post status-publish format-standard has-post-thumbnail hentry category-fookuses">
+
+2
+  <article id="post-421" class="clearfix post-421 article type-article status-publish format-standard has-post-thumbnail hentry issuem_issue-177-1-2015">
+
+1	type-post
+2 type-article
+
+
+
+
+## a img  - sama
+1
+  <a href="http.../" rel="bookmark">
+  <img width="600" height="330" src="....jpg" class="attachment-tortuga-thumbnail-large size-tortuga-thumbnail-large wp-post-image" alt="">			</a>
+
+2
+<a href="http..." rel="bookmark">
+  <img width="600" height="330" src="...jpg" class="attachment-tortuga-thumbnail-large size-tortuga-thumbnail-large wp-post-image" alt=".">			</a>
+
+### header - sama
+
+1
+  <header class="entry-header">
+    <h2 class="entry-title"><a href="http...>Voorused ja väärtused</a></h2>
+    <div class="entry-meta">
+      <span class="meta-date">
+        <a href="http..." title="" rel="bookmark">
+          <time class="entry-date published updated" datetime="2015-...">jaan. 2015</time>
+        </a>
+      </span>
+      <span class="meta-author">
+				<span class="author vcard">
+          <a class="url fn n" href="..." title="View..." rel="author">Philippe Jourdan</a>
+        </span>
+      </span>
+    </div>
+  </header>
+
+2
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="...." rel="bookmark">Vabakondlik ...</a></h2>
+			<div class="entry-meta">
+				<span class="meta-date">
+					<a href="http..." title="" rel="bookmark">
+					<time class="entry-date published updated" datetime="2017-01-15T00:00:50+00:00">jaan. 2017</time>
+				</a>
+			</span>
+			<span class="meta-author">
+				<span class="author vcard">
+					<a class="url fn n" href="http..." title="View..." rel="author">Tarvo Siilaberg</a>
+				</span>
+			</span>
+		</div>
+	</header>
+
+
+### content - sama
+1
+	<div class="entry-content">
+	<p>
+	<a>
+	</div>
+	</article>
+
+2
+	<div class="entry-content">
+	<p>
+	<a>
+	</div>
+	</article>
