@@ -1,7 +1,7 @@
 
 // ### In content type "post" versus content type "article"
 
-// ---------------------------------------------
+// -------------------------------------------------------------------
 // <a> 
 // ... <article> <a>
 //  content-type "post" 
@@ -32,17 +32,26 @@
                                         cursor: auto;
                                 }   
 
-// ---working article ???  ----
-
+// --- child-theme css  ----
 
 
 
 // ----------------------------------------------------------------
-//<img> under <article>, under <a> in content type "post"
+// <img>
+// <article> <img>
+
+// ----- post -----
 
 .widget-magazine-posts-list .type-post .wp-post-image {
 //  !! NB
     float: left;    
+    margin: 0 0.75em 0 0;
+    padding: 0 0.75em 0 0;
+    max-width: 50%;
+}
+
+.widget-magazine-posts-list .type-post .wp-post-image {
+    float: left;
     margin: 0 0.75em 0 0;
     padding: 0 0.75em 0 0;
     max-width: 50%;
@@ -53,14 +62,7 @@
     border: 0;
 }
 
-
-// <header> under <article, 
-header {
- display: block;
- box-sizing: inherit;
-}
-
-// ----------working post-type "article"  --------------------
+// ------ child-theme css for article  ------
 
 .widget-magazine-posts-list .type-article .wp-post-image {
 	float: left;    
@@ -71,6 +73,7 @@ header {
 	height: auto;
 	border: 0;
 }
+
 
 
 // ---------------------------------------------
@@ -92,7 +95,6 @@ header {
 					box-sizing: inherit;
 				}
 // ----- post -----
-
 * { 	
 	box-sizing: inherit;
 }
@@ -124,10 +126,10 @@ header {
                                        color: #de6150;
 					margin: 0;
 					padding: 0;
-					   text-transform: uppercase;
-					   word-wrap: break-word;
-					   font-weight: normal;
-					   font-family: 'Titillium Web', Tahoma, Arial;
+					text-transform: uppercase;
+					 word-wrap: break-word;
+					 font-weight: normal;
+					 font-family: 'Titillium Web', Tahoma, Arial;
                                     }
 				
                                    
@@ -158,6 +160,18 @@ h2 {
     					box-sizing: inherit;
 				}
 
+
+--------  child-theme css -----------
+.widget-magazine-posts .type-article .entry-title {
+    display: inline;
+    color: #de6150;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-weight: normal;
+    font-family: 'Titillium Web', Tahoma, Arial;
+}
 
 
 
