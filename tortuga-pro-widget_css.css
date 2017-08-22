@@ -1,5 +1,9 @@
 
-## In content type "post"
+// ### In content type "post"
+
+//  <article>
+
+#post-353
 
 .widget-magazine-posts .type-post {
     margin: 0 0 1.5em 0;
@@ -8,4 +12,51 @@
     background: none;
     box-shadow: none;
 }
+
+.type-post {
+    max-width: 100%;
+}
+
+    
+. article {
+    display: block;
+}
+    
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+// <img> under <article>
+
+.widget-magazine-posts-list .type-post .wp-post-image {
+// !! NB
+    float: left;
+    
+    margin: 0 0.75em 0 0;
+    padding: 0 0.75em 0 0;
+    max-width: 50%;
+}
+
+.img {
+    height: auto;
+}
+
+// <h2>
+.widget-magazine-posts-list .type-post .entry-title {
+    font-size: 1.375rem;
+}
+
+.widget-magazine-posts .type-post .entry-title {
+    display: inline;
+// !! ilma selleta ei ole kõrvuti
+}
+
+.entry-title, {
+    color: #de6150;
+}
+
+
+
+
 
