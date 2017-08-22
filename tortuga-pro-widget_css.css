@@ -91,12 +91,22 @@ header {
 // ---------------------------------------------
 // <h2> 
 // ... <article> <header> <h2>
-    
-@media only screen and (max-width: 60em) 
-.widget-magazine-posts-list .type-post .entry-title {
-    font-size: 1.375rem;
+   
+
+@media only screen and (max-width: 60em) {
+	.widget-magazine-posts-list  .type-post .entry-title  {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
 }
- 
+
+@media only screen and (max-width: 70em) {
+	.widget-magazine-posts-list  .type-post .entry-title  {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+}
+
 --post---
 .widget-magazine-posts .type-post .entry-title {
     // !! ilma selleta ei ole kõrvuti
@@ -153,15 +163,36 @@ div.widget-magazine-posts-list div article header h2 {
 }
 
 --------  child-theme css -----------
-.widget-magazine-posts .type-article .entry-title {
-    display: inline;
-    color: #de6150;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    font-weight: normal;
-    font-family: 'Titillium Web', Tahoma, Arial;
+div.widget-magazine-posts-list h2 {
+	clear: both;
+	display: inline;
+	color: #de6150;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	font-weight: normal;
+	font-size: 22px;
+ 	font-size: 1.375rem;
+	font-family: 'Titillium Web', Tahoma, Arial;
+	-webkit-margin-before: 0.83em;
+ 	-webkit-margin-after: 0.83em;
+ 	-webkit-margin-start: 0px;
+ 	-webkit-margin-end: 0px;
+}
+
+@media only screen and (max-width: 60em) {
+	.widget-magazine-posts-list h2 {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+}
+
+@media only screen and (max-width: 70em) {
+	.widget-magazine-posts-list h2 {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
 }
 
 
@@ -196,6 +227,7 @@ a {
 * {
     box-sizing: inherit;
 }
+
 
 
 // ---------------------------------------------
