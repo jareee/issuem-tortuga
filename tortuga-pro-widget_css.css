@@ -304,7 +304,24 @@ tortuga-pro.css?ver=1.3.1:360
 
 + inherited...
 
+// ---- child theme css ----
+/*  entry-content  */
+@media only screen and (max-width: 60em) {
+	div.widget-magazine-posts-list div.entry-content {
+    		display: inline;
+	}
+}
 
+@media only screen and (max-width: 65em) {
+	div.widget-magazine-posts-list div.entry-content {
+    		display: none;
+	}
+}
+
+div.widget-magazine-posts div.entry-content {
+    font-size: 16px;
+    font-size: 1rem;
+}
 
 
 //// ---------------------------------------------
@@ -333,6 +350,65 @@ p {
 }
 */
 + inherited...
+
+// ---- child theme css ----
+/*  p  */
+div.widget-magazine-posts div.entry-content p {
+    margin: 1em 0 0;
+}
+
+
+// ---------------------------------------------
+// <a class="more-link"> 
+// ... <div> <article> <div> <p>
+// <div class="widget-magazine-posts-content"> <article> <div class="entry-content"> <a class=
+
+// ----- post -----
+@media only screen and (max-width: 60em) {
+	.widget-magazine-posts-list .type-post .entry-content .more-link {
+    		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 70em) {
+	.widget-magazine-posts-list .type-post .entry-content .more-link {
+    		display: none;
+	}
+}
+
+.widget-magazine-posts .type-post .more-link {
+    margin: 1em 0 0;
+}
+...
+
+
+
+--- artcile -----
+.more-link:link, .more-link:visited {
+    color: #fff;
+}
+
+
+// ---- child theme css ----
+/*  .more-link  */
+@media only screen and (max-width: 60em) {
+	div.widget-magazine-posts-list div.entry-content a.more-link {
+    		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 70em) {
+	div.widget-magazine-posts-list div.entry-content a.more-link {
+    		display: none;
+	}
+}
+
+div.widget-magazine-posts div.entry-content a.more-link {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+
 
 
 
