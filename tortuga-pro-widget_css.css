@@ -23,13 +23,14 @@
     border-color: #de6150; // underlined
 }
 
-@media only screen and (max-width: 80em)
-style.css:2089
-.widget, .page-header, .type-post, .type-page, .type-attachment, .pagination, .comments-area {
-    margin-bottom: 1.5em;
+@media only screen and (max-width: 80em) {
+	.type-post {
+    		margin-bottom: 1.5em;
+	}
 }
 
-.type-post, .type-page, .type-attachment, .comments-area {
+
+.type-post, {
     margin: 0 0 2em 0; // underlined
     padding: 1.5em; // underlined
     max-width: 100%;
@@ -46,7 +47,7 @@ article {
     box-sizing: inherit;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+article {
     display: block;
 }
 
@@ -60,7 +61,26 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     box-sizing: inherit;
 }
 
+// --- child-theme css  ----
 
+div.widget-magazine-posts article.type-article {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	border: none;
+	background: none;
+	box-shadow: none;
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 80em) {
+	div.widget-magazine-posts article.type-article  {
+    		margin-bottom: 1.5em;
+	}
+}
+
+article.article {
+    display: block;
+}
 
 
 // -------------------------------------------------------------------
