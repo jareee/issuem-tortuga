@@ -1,5 +1,67 @@
+/** "tortuga" theme (thmemezee) addition plugin "tortuga pro" plugin widgets edited 
+* for working together with issuem plugin
+* 
+* css analyze and comparison of content type "post" versus content type "article"
+* then child theme css for content type "article" is greated based on content type "post"
+*/
 
-// ### In content type "post" versus content type "article"
+// --------------------------------------------------
+// tag <article> 
+// ... <article id="post-351" class="clearfix post-351 post type-post status-publish format-standard has-post-thumbnail hentry category-avaleht">
+
+// ----- with post  -----
+
+.widget-magazine-posts .type-post {
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.type-post, {
+    border-color: #de6150; // underlined
+}
+
+@media only screen and (max-width: 80em)
+style.css:2089
+.widget, .page-header, .type-post, .type-page, .type-attachment, .pagination, .comments-area {
+    margin-bottom: 1.5em;
+}
+
+.type-post, .type-page, .type-attachment, .comments-area {
+    margin: 0 0 2em 0; // underlined
+    padding: 1.5em; // underlined
+    max-width: 100%;
+    border-top: 3px solid #dd5533; // underlined
+    background: #fff; // underlined
+    box-shadow: 0 2px 2px #aaa; // underlined
+}
+
+article {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+// ----- with article  -----
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
 
 // -------------------------------------------------------------------
 // <a> 
