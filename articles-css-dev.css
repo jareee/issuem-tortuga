@@ -8,7 +8,7 @@
 *
 */
 
-/* ---- <div id=content> ------------- */
+/* ------------- <div id=content> ------------- */
 
 /* --- post --- */
 
@@ -39,7 +39,8 @@ style.css:2066
     box-sizing: inherit;
 }
 
-/* --- post --- */
+/* --- article --- */
+
 @media only screen and (max-width: 80em)
 .site-content {
     padding-top: 1.5em;
@@ -65,10 +66,143 @@ style.css:2066
     box-sizing: inherit;
 }
 
-/* --- post --- */
+/* --- combine --- */
+
 // css are same, no need for additional
 
 
-/* ---- <div id=content> ------------- */
+/* ------------- ::before ------------- */
+
+/* --- post --- */
+
+.clearfix:before, .clearfix:after, .post-navigation .nav-links:before, .post-navigation .nav-links:after, .comment-navigation:before, .comment-navigation:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after, .clearfix:before {
+    content: ' ';
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- article --- */
+
+.clearfix:before, .clearfix:after, .post-navigation .nav-links:before, .post-navigation .nav-links:after, .comment-navigation:before, .comment-navigation:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after, .clearfix:before {
+    content: ' ';
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- combine --- */
+
+// css are same
+
+/* ------------- <section id="primary"> ------------- */
+
+/* --- post --- */
+
+@media only screen and (max-width: 60em)
+.content-area, .site-content .content-fullwidth {
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 70em)
+.content-area {
+    width: 70%;
+}
+@media only screen and (max-width: 80em)
+.content-area {
+    padding-right: 1.5em;
+}
+
+.content-area {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 2em;
+    width: 73%;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- article --- */
+
+@media only screen and (max-width: 60em)
+.content-area, .site-content .content-fullwidth {
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 70em)
+.content-area {
+    width: 70%;
+}
+@media only screen and (max-width: 80em)
+.content-area {
+    padding-right: 1.5em;
+}
+
+.content-area {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 2em;
+    width: 73%;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* --- combine --- */
+// no need, css are same
+
+
+/* ------------- <main id="main"> ------------- */
+
+/* --- post --- */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* --- post --- */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+style.css:371
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* --- combine --- */
+// no need, css are same
+
+
 
 
