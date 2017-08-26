@@ -1,0 +1,12 @@
+/**
+* Tortuga theme edit for working with plugin issuem
+* 
+* Goals: 
+* 1) Analyze current theme posts css 
+  2) Analyze current article css 
+* 2) Write custom article post type css for single articles and archive pages
+*
+*/
+
+/* ---------- look post css -------------
+
