@@ -203,6 +203,70 @@ style.css:371
 /* --- combine --- */
 // no need, css are same
 
+/* ------------- <article ...> ------------- */
+
+/* --- post --- */
+
+.page-header, .type-post, .type-page, .type-attachment, .comments-area {
+    border-color: #de6150;
+}
+
+@media only screen and (max-width: 80em)
+.widget, .page-header, .type-post, .type-page, .type-attachment, .pagination, .comments-area {
+    margin-bottom: 1.5em;
+}
+
+.type-post, .type-page, .type-attachment, .comments-area {
+    margin: 0 0 2em 0;
+    padding: 1.5em;
+    max-width: 100%;
+    border-top: 3px solid #dd5533;
+    background: #fff;
+    box-shadow: 0 2px 2px #aaa;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- article --- */
+
+article.article {
+    display: block;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block; // underline
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 
+/* --- combine --- */
+
+@media only screen and (max-width: 80em) {
+  article.type-article {
+    margin-bottom: 1.5em;
+  }
+}
+
+article.type-article {
+    // orginally before @media
+    border-color: #de6150;
+    // originally after @media
+    margin: 0 0 2em 0;
+    padding: 1.5em;
+    max-width: 100%;
+    border-top: 3px solid #dd5533;
+    background: #fff;
+    box-shadow: 0 2px 2px #aaa;
+    // from tag css article
+    display: block;
+}
 
