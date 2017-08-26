@@ -8,5 +8,67 @@
 *
 */
 
-/* ---------- look post css -------------
+/* ---- <div id=content> ------------- */
+
+/* --- post --- */
+
+@media only screen and (max-width: 80em)
+.site-content {
+    padding-top: 1.5em;
+}
+
+@media only screen and (max-width: 80em)
+style.css:2066
+.container {
+    padding: 0 1.5em;
+}
+
+.site-content {
+    padding-top: 2em; // underline
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2em; // underline
+    max-width: 1320px;
+    width: 100%;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- post --- */
+@media only screen and (max-width: 80em)
+.site-content {
+    padding-top: 1.5em;
+}
+
+@media only screen and (max-width: 80em)
+.container {
+    padding: 0 1.5em;
+}
+
+.site-content {
+    padding-top: 2em;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1320px;
+    width: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* --- post --- */
+// css are same, no need for additional
+
+
+/* ---- <div id=content> ------------- */
+
 
